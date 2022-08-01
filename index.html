@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="timeholder">
+      <div class="clockframe"><p id="clock"></p></div>
+      <br />
+      <div class="secondCounterFrame">
+        <p>
+          You started:
+          <span id="secondCounter"></span>
+          seconds ago
+        </p>
+      </div>
+    </div>
+    <div class="todoflex">
+      <div class="todoframe">
+        <p>erpolley.com</p>
+        <h3>Weekly Goals</h3>
+        <input type="text" id="todoinput" value="Type Here..." />
+        <br />
+        <input type="button" value="Add item" onclick="addItem();" />
+        <br />
+        <br />
+        <div class="list" id="list"></div>
+      </div>
+      <div class="todoframe">
+        <p>erpolley.com</p>
+        <h3>Daily's</h3>
+        <input type="text" id="todoinput2" value="Type Here..." />
+        <br />
+        <input type="button" value="Add item" onclick="addItem2();" />
+        <br />
+        <br />
+        <div class="list2" id="list4"></div>
+      </div>
+    </div>
+
+    <script src="timer.js" async defer></script>
+    <script src="clock.js" async defer></script>
+    <script src="todolist.js" async defer></script>
+    <script src="todolist2.js" async defer></script>
+  </body>
+</html>

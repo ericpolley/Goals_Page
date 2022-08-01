@@ -1,0 +1,61 @@
+body {
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    background-image: url(despaired-2261021_1920.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.todoframe {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25%;
+    width: 250px;
+    padding: 50px;
+    text-align: center;
+}
+
+.secondCounterFrame {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25%;
+    width: 200px;
+    height: 100px;    
+    text-align: center;
+    justify-content: center;
+    
+    margin: 10px;
+}
+
+#secondCounter {
+    font-weight: 800;
+    
+
+}
+
+.todoflex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clockframe {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    height: 100px;    
+    margin: 10px;
+    text-align: center;
+    border-radius: 25%;
+    padding: 20px;
+}
+
+.timeholder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
